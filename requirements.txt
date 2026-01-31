@@ -1,0 +1,35 @@
+# FastAPI backend
+fastapi==0.111.1
+uvicorn==0.24.0
+
+# SQLAlchemy for ORM
+SQLAlchemy==2.0.22
+
+# APScheduler for scheduler jobs
+APScheduler==3.10.4
+
+# Requests for API calls
+requests==2.32.0
+
+# Feedparser for YouTube RSS feeds
+feedparser==6.0.12
+
+# Tweepy for Twitter API
+tweepy==4.16.0
+
+# Optional: snscrape for no-API Twitter scraping
+snscrape==0.7.0.20230622
+
+# Optional: BeautifulSoup4 for web scraping (LinkedIn/Instagram if needed)
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# dotenv for environment variables
+python-dotenv==1.0.0
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+werkzeug
+flask-cors

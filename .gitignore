@@ -1,0 +1,76 @@
+############################
+# GENERAL
+############################
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+############################
+# PYTHON / FLASK
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+############################
+# FLASK
+############################
+instance/
+.webassets-cache
+
+############################
+# NODE / REACT
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# REACT BUILD
+############################
+frontend/build/
+frontend/dist/
+
+############################
+# VITE (if used)
+############################
+frontend/.vite/
+
+############################
+# IDE / EDITORS
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# TEST / CACHE
+############################
+.coverage
+.pytest_cache/
+.cache/
+
+############################
+# SECRETS (IMPORTANT)
+############################
+*.pem
+*.key
+*.crt
