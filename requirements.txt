@@ -1,30 +1,30 @@
-# FastAPI backend
+# FastAPI
 fastapi==0.111.1
 uvicorn==0.24.0
 
-# Database ORM
+# ORM
 SQLAlchemy==2.0.22
 
-# Scheduler (Render OK, Vercel NOT OK)
+# Scheduler
 APScheduler==3.10.4
 
-# HTTP requests
+# HTTP
 requests==2.32.0
 
-# RSS / feeds
+# Feeds
 feedparser==6.0.12
 
 # Twitter
 tweepy==4.16.0
 snscrape==0.7.0.20230622
 
-# Web scraping
+# Scraping
 beautifulsoup4==4.12.2
 lxml==4.9.4
 
-# Env vars
+# Env
 python-dotenv==1.0.0
 
-# FastAPI utilities
+# FastAPI internals
 pydantic==2.7.1
 python-multipart==0.0.9
